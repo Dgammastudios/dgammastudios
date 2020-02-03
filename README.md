@@ -1,3 +1,3 @@
 # dgammastudios
 D'gamma Studios Web Page Repository
-dgammastudios.github.io/info.html
+<a href="dgammastudios.github.io/info.html"> www.dgammastudios.com</a>
