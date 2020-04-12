@@ -21,20 +21,23 @@
           height: 80px;
           background-color: #b8e7c8;
           text-align: center;
-          padding: 0px;
-          padding-bottom: 10px;
+          margin: 2px;
+          margin-top: 5px;
+          margin-bottom: 5px;
 
 }
+
 
 
 
         #wedding_dj {
           background-color: #b8e7c8;
           margin:5px;
-          height: 250px;
-          padding: 20px;
-          padding-bottom: 35px;
 
+}
+        #wedding_dj_text {
+          float: left;
+          width: 70%;
 }
 
         #wedding_dj_img {
@@ -46,18 +49,23 @@
 
         #contact {
           background-color: #b8e7c8;
-          height: 250px;
           margin:5px;
-          padding: 20px;
-          padding-bottom: 35px;
+
 }
         #contact_text {
           float: right;
+          width: 70%;
       }
 
         #contact_img {
           float: left;
           max-width: 20%;}
+
+          .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
 
 
         .clearfix::after {
@@ -74,28 +82,28 @@
 <div id="page">
   <!-- header -->
   <div id="header">
-    <h1 id="h1">D'GAMMA STUDIOS</h1>
+    <h1>D'GAMMA STUDIOS</h1>
     <h3>Wedding DJ</h3>
   </div>
 
 
   <!-- Main Photo -->
   <div id="main_image">
-    <img height="720px" src="dgammastudios.github.io/images/Home/logo.jpg">
+    <img height="720px" src="dgammastudios.github.io/images/Home/logo.jpg" alt="D'gamma Studios Logo" class="center">
   </div>
 
 
 <div id="content">
 
 <!-- Wedding DJ -->
-  <div id=wedding_dj stle=clearfix
+  <div id="wedding_dj" style="clearfix"
   >
     <!-- Image -->
-    <div id=wedding_dj_img>
-          <img width=100%; src="dgammastudios.github.io/images/Home/weddingdj.jpg">
+    <div id="wedding_dj_img">
+          <img width="100%" src="dgammastudios.github.io/images/Home/weddingdj.jpg">
       </div>
     <!-- Title -->
-    <div>
+    <div id="wedding_dj_text">
       <h1>Wedding DJ</h1>
       </div>
     <!-- Body -->
@@ -107,7 +115,7 @@
 
 
 <!-- Contact -->
-<div id=contact>
+<div id="contact" style="clearfix">
   <!-- Image -->
   <div id=contact_img>
         <img width=100%; src="dgammastudios.github.io/images/Home/weddingdj.jpg">
