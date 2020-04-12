@@ -10,9 +10,15 @@
 
   }
 
+      #page {
+          max-width: 1440px;
+          min-width: 720px;
+          margin: 2px auto 2px auto;
+          background-color: #f0f0f0;}
 
-        #header {
-          max-width: 100%;
+      #header {
+          width: 100%;
+          height: 80px;
           background-color: #b8e7c8;
           text-align: center;
           padding: 0px;
@@ -53,12 +59,13 @@
           float: left;
           max-width: 20%;}
 
-        #page {
-          max-width: 1440px;
-          min-width: 720px;
-          margin: 2px auto 2px auto;
-          padding: 0px;
-          background-color: #f0f0f0;}
+
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
       </style>
 
   </head>
@@ -81,7 +88,7 @@
 <div id="content">
 
 <!-- Wedding DJ -->
-  <div id=wedding_dj
+  <div id=wedding_dj stle=clearfix
   >
     <!-- Image -->
     <div id=wedding_dj_img>
