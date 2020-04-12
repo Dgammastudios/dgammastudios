@@ -12,7 +12,7 @@
 
       #page {
           max-width: 1440px;
-          min-width: 720px;
+          min-width: 360px;
           margin: 2px auto 2px auto;
           background-color: #f0f0f0;}
 
@@ -29,55 +29,58 @@
 
 
 
-
-        #wedding_dj {
-          background-color: #b8e7c8;
-          margin:5px;
-
-}
-              #wedding_dj_text {
-                float: left;
-                width: 70%;
-      }
-
-              #wedding_dj_img {
-                float: right;
-                max-width: 30%;
+.parent {
+  background-color: #b8e7c8;
+  margin: 5px;
 
 }
 
+.column{
+  float: left;
+}
 
-        #contact {
-          background-color: #b8e7c8;
-          margin:5px;
+.wide {
+  width: 75%;
+}
+
+.mid {
+  width: 50%;
 
 }
-                #details {
-                  float: left;
-                  width: 33%;
-                }
-                #contact_text {
-                  float: right;
-                  width: 33%;
-              }
+.thin {
+  width: 25%;
 
-                #contact_img {
-                  float: left;
-                  max-width: 33%;}
+}
+.third {
+  width: 33%;
 
-          .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
+}
 
 
-        .clearfix::after {
-          content: "";
-          clear: both;
-          display: table;
-        }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 900px) {
+.column {
+width: 50%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+}
+}
       </style>
 
   </head>
@@ -93,20 +96,20 @@
 
   <!-- Main Photo -->
   <div id="main_image">
-    <img src="/images/index/logo.jpg" alt="D'gamma Studios Logo" class="center" style="height:600px;">
+    <img src="/images/index/logo.jpg" alt="D'gamma Studios Logo" style="height:600px;">
   </div>
 
 
 <div id="content">
 
 <!-- Wedding DJ -->
-  <div id="wedding_dj" class="clearfix">
+  <div id="wedding_dj" class="parent clearfix">
     <!-- Image -->
-      <div id="wedding_dj_img">
+      <div id="wedding_dj_img" class="column thin">
             <img src="/images/index/weddingdj.jpg" alt="the Glass House Wedding" style="width:100%;">
       </div>
     <!-- Title -->
-    <div id="wedding_dj_text">
+    <div id="wedding_dj_text" class="column wide">
       <div>
         <h1>Wedding DJ</h1>
       </div>
@@ -115,20 +118,20 @@
         <p> What is a celebration without good music? Your big day is getting closer, and you want to celebrate the love of your life. You probably don't want to spend unnecessary time worrying about music. I have been working as a part time wedding DJ for the past 2 years. I'm simple, I'm organized, and I'll take care of your ceremony and reception audio needs for you! Its your celebration, so I'll be sure to work with you to create playlists catered just for you, your special someone, and your special day.  I want to do what I can to help you celebrate your big day! </p>
       </div>
     </div>
-  </div> <!-- wedding dj -->
+  </div> <!-- end block wedding dj -->
 
 
 
 <!-- Contact -->
-<div id="contact" class="clearfix">
+<div id="contact" class="parent clearfix">
   <!-- Image -->
-    <div id=contact_img>
+    <div id=contact_img class="column third">
         <img src="/images/index/weddingdj.jpg" alt="Isaac DJing" class="center" style="width:256px;height:auto;">
     </div>
   <!-- Details -->
-    <div id=details>
-      <h1 class="center">Details</h1>
-      <p class="center">Based out of central MS, I own all of my own audio equipement and can serve crowds up to 250 for a good dance party feel. I can also serve more relaxed ceremonies and receptions for larger audiences. Heres a list of my services:</br>
+    <div id=details class="column third">
+      <h1>Details</h1>
+      <p>Based out of central MS, I own all of my own audio equipement and can serve crowds up to 250 for a good dance party feel. I can also serve more relaxed ceremonies and receptions for larger audiences. Heres a list of my services:</br>
         <ul>
           <li>Reception DJ</li>
           <li>Ceremony live sound for band/officiator</li>
@@ -136,7 +139,7 @@
         </ul>
     </div>
   <!-- Title -->
-  <div id=contact_text>
+  <div id=contact_text class="column third">
     <div>
       <h1>Contact me!</h1>
     </div>
@@ -148,18 +151,8 @@
       <img src="/images/index/instagram_icon.png" alt="instagram icon" style="width:40px;height:40px"><a href="https://www.instagram.com/d.gammastudios/">D.gamma Studios</a></p>
     </div>
   </div>
-</div>
+</div><!-- end block contact -->
 
-
-
-
-
-</div>
-
-
-<!-- Details -->
-<div>
-</div>
 
 
 <!-- About D'gamma -->
