@@ -1,7 +1,7 @@
   body {
     font-size: 100%;
     font-family: Tahoma, Geneva, sans-serif;
-    background-color: #B0C4DE;
+    background-color: #E3EFFF;
     margin: 0px;
     padding: 0px;
 
@@ -45,6 +45,17 @@
 
 }
 
+
+#content {
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: 4%;
+    background-color: #B0C4DD;
+
+
+}
+
   #footer {
       width: 100%;
       height: auto;
@@ -81,6 +92,7 @@ a:active {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 84%;
+  border-style: solid;
 }
 
 .column{
