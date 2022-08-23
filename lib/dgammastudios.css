@@ -7,9 +7,7 @@ a:hover {
   padding: 15px 30px;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
+
 a:active {
   color: #1a8df0;
   text-decoration: none;
@@ -101,7 +99,8 @@ p {
   padding-top: 15px;
   padding-bottom: 15px;
   margin: 0px;
-  background-color: #d6e4f5;
+  background-color: #1e1e1e;
+  color: white;
   text-align: center;
 }
 .heading {
@@ -117,16 +116,18 @@ p {
   padding: 3%;
 }
 .nav {
-  width: 92%;
   height: auto;
   margin: 1em;
   background-color: inherit;
-  border-bottom-color: "";
-  border-bottom: "";
-  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0;
+  justify-content: center;  
 }
 .nav_links {
   margin: 0 1em;
+  border-bottom: black solid;
+  flex: 1 1 1;
 }
 .nav_links:hover {
   background-color: #1a8df0;
