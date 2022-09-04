@@ -253,7 +253,7 @@ div > img {
   text-align: center;
   padding: 2em;
 }
-.portfolio_img {
+.portfolio > img {
   width: 16em;
   height: 16em;
   border-radius: 50%;
