@@ -87,7 +87,11 @@ p {
   border-radius: 50%;
   margin: auto 2em;
 }
-
+.audio {
+  text-align: center;
+  justify-content: center;
+  margin-top: 1.5em;
+}
 /* Classes */
 .blue {
   background-color: #d6e4f5;
