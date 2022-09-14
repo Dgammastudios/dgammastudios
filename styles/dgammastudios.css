@@ -67,7 +67,7 @@ p {
   margin: 3em 2em 1em 2em;
 }
 #about_text {
-  min-width: 400px;
+  min-width: 300px;
   max-width: 100%;
   margin: 0 1em 2em 1em;
   flex: 1 1 400px;
