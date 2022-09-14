@@ -55,6 +55,22 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding-right: 2em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#about_picture {
+  width: 10em;
+  height: 10em;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  margin: 3em 2em 1em 2em;
+}
+#about_text {
+  min-width: 400px;
+  margin: 0 1em 2em 1em;
+  flex: 1 1 400px;  
+  
 }
 #dgammalogo {
   width: 4em;
@@ -81,17 +97,12 @@ p {
   max-width: 1050px;
   margin: auto;
 }
-#profile_picture {
-  width: 10em;
-  height: 10em;
-  flex: 1 0 auto;
-  border-radius: 50%;
-  margin: auto 2em;
-}
+
 #resume {
   margin: 2em;
   padding: 0;
 }
+
 .audio {
   text-align: center;
   justify-content: center;
@@ -122,6 +133,10 @@ p {
   flex-wrap: wrap;
   flex: 1 1 0;
 }
+.flex_photo {
+  display: flex;
+  flex-wrap: wrap;
+}
 .grid_img {
   display: grid;
   grid-template-columns: auto auto;
@@ -132,27 +147,6 @@ p {
 }
 .grid_img > * > * > img {
   object-fit: cover;
-}
-.grid_photo {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 0;
-  align-items: start;
-}
-.images {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  flex-wrap: nowrap;
-  align-items: center;
-  align-content: center;
-  overflow: hidden;
-}
-div > img {
-  padding: 2px 4px;
-}
-.item {
-  flex: 1 1 0;
 }
 .item1,
 .item2,
@@ -196,6 +190,39 @@ div > img {
   justify-content: start;
   max-width: 470px;
 }
+.item_l {
+  flex: 1 1 0;
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+}
+.itemr2, .itemr3 {
+  flex: 1 2 0;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+}
+.item_r {
+  display: flex;
+  flex: 1 1 0;
+  flex-wrap: nowrap;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+}
+div > img {
+  padding: 2px 4px;
+}
+.item {
+  flex: 1 1 0;
+}
+
 
 .content {
   margin-right: 4em;
