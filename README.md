@@ -1,2 +1,2 @@
 # dgammastudios
-Dgamma Studios website, coming soon!
+Dgamma Studios website, in progress!
