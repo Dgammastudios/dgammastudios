@@ -132,7 +132,11 @@ p {
   border-radius: 50%;
   margin: 48px 32px 0 26px;
 }
-
+#about_studio_img {
+  width: 700px;
+  max-width: 100;
+  margin: 32px 0;
+}
 #about_text {
   min-width: 300px;
   max-width: 100%;
