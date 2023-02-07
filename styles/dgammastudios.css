@@ -248,6 +248,14 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+.footer {
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
 
 .grid_img {
   display: grid;
