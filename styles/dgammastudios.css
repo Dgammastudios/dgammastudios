@@ -78,6 +78,7 @@ footer {
   padding: 32px 16px 0;
   margin: 16px 0 0;
   background-color: #000000;
+  justify-content: space-around;
 }
 header {
   width: 100%;
@@ -94,7 +95,9 @@ a,h1,h2,h3,h4,h5,h6 {
 h3 {
   font-weight: 100;
 }
-
+h6 {
+  color: grey;
+}
 iframe {
   margin-top: 1em;
   max-height: 100%;
@@ -150,6 +153,11 @@ p {
   width: 4em;
   margin-left:auto;
   margin-right:auto;
+}
+#equipment {
+  text-align:center;
+  margin: 1em auto;
+  max-width: 530px;
 }
 #resume {
   display: flex;
