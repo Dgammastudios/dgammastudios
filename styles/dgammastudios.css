@@ -78,8 +78,8 @@ footer {
   padding: 32px 16px 0;
   margin: 16px 0 0;
   background-color: #000000;
-  justify-content: space-around;
 }
+
 header {
   width: 100%;
   padding: 15px 0;
@@ -264,10 +264,16 @@ p {
 .footer {
   width: 100%;
   overflow: hidden;
-  height: 200px;
+  height: 190px;
   margin: 0;
   padding: 0;
   color: white;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+}
+.footer>article {
+  flex: 0 0 120px;
 }
 
 .grid_img {
@@ -466,7 +472,15 @@ div>img {
   max-width: 530px;
   margin: 1em;
 }
-
+.text_center {
+  text-align: center;
+}
+.text_baseline {
+  align-self: end;
+}
+.text_right {
+  text-align: right;
+}
 .third {
   max-width: 33.3%;
 }
